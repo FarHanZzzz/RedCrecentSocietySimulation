@@ -9,22 +9,22 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.HomePageController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.ViewVolenteersReportController">
     <children>
         <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="760.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../images/redcrecent-removebg-preview.png" />
             </image>
         </ImageView>
-      <TableView layoutX="61.0" layoutY="211.0" prefHeight="286.0" prefWidth="732.0" style="-fx-background-color: #FAF9F6;">
+      <TableView fx:id="tableview" layoutX="61.0" layoutY="211.0" prefHeight="296.0" prefWidth="722.0" style="-fx-background-color: #FAF9F6;">
         <columns>
-          <TableColumn prefWidth="130.40001678466797" text="Name " />
-          <TableColumn prefWidth="132.79998779296875" text="Id" />
-            <TableColumn prefWidth="148.7999267578125" text="Bloodgroup" />
-            <TableColumn prefWidth="317.6000671386719" text="Description" />
+          <TableColumn fx:id="nameCol" prefWidth="130.40001678466797" text="Name " />
+          <TableColumn fx:id="idCol" prefWidth="132.79998779296875" text="Id" />
+            <TableColumn fx:id="bgCol" prefWidth="148.7999267578125" text="Bloodgroup" />
+            <TableColumn fx:id="desCriptionCol" prefWidth="317.6000671386719" text="Description" />
         </columns>
       </TableView>
-      <Button layoutX="292.0" layoutY="148.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FAF9F6;" text="Show Volenteers Report ">
+      <Button layoutX="292.0" layoutY="148.0" mnemonicParsing="false" onAction="#showVolenteerReportOnAction" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FAF9F6;" text="Show Volenteers Report ">
          <font>
             <Font size="15.0" />
          </font>

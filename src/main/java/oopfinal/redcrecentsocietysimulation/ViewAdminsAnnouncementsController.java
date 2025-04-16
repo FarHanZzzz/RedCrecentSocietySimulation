@@ -1,17 +1,15 @@
 package oopfinal.redcrecentsocietysimulation;
 
-public class ViewEmergencyNoticeController
+public class ViewAdminsAnnouncementsController
 {
     @javafx.fxml.FXML
-    private TableColumn titleCol;
+    private TableColumn toCol;
     @javafx.fxml.FXML
-    private TableColumn ToCol;
+    private TableColumn AnnouncementCol;
     @javafx.fxml.FXML
-    private TableColumn NoticeCol;
+    private TableColumn subjectCol;
     @javafx.fxml.FXML
     private TableView tableview;
-    @javafx.fxml.FXML
-    private TableColumn DateCol;
 
     @javafx.fxml.FXML
     public void initialize() {

@@ -8,7 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.ViewEventOrganizeReportController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.ViewAdminsAnnouncementsController">
     <children>
         <ButtonBar layoutX="301.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0" />
         <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="760.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
@@ -16,14 +16,13 @@
                 <Image url="@../../images/redcrecent-removebg-preview.png" />
             </image>
         </ImageView>
-      <TableView layoutX="55.0" layoutY="249.0" prefHeight="200.0" prefWidth="754.0">
+      <TableView fx:id="tableview" layoutX="101.0" layoutY="202.0" prefHeight="295.0" prefWidth="692.0">
         <columns>
-          <TableColumn fx:id="timeCol" prefWidth="189.0" text="time" />
-          <TableColumn fx:id="dateCol" prefWidth="111.0" text="date" />
-            <TableColumn fx:id="titleCol" prefWidth="149.0" text="title" />
-            <TableColumn fx:id="thingsCol" prefWidth="304.0" text="things to be noted " />
+          <TableColumn fx:id="subjectCol" prefWidth="207.0" text="Subject" />
+          <TableColumn fx:id="toCol" prefWidth="151.0" text="To" />
+            <TableColumn fx:id="AnnouncementCol" prefWidth="333.0" text="Announcement" />
         </columns>
       </TableView>
-      <Button layoutX="394.0" layoutY="197.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
+      <Button layoutX="382.0" layoutY="134.0" mnemonicParsing="false" onAction="#showOnAction" text="Show" />
     </children>
 </AnchorPane>

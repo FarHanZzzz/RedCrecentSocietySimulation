@@ -8,7 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.ViewEventOrganizeReportController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.ViewAnnualBudgeReportController">
     <children>
         <ButtonBar layoutX="301.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0" />
         <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="760.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
@@ -16,14 +16,14 @@
                 <Image url="@../../images/redcrecent-removebg-preview.png" />
             </image>
         </ImageView>
-      <TableView layoutX="55.0" layoutY="249.0" prefHeight="200.0" prefWidth="754.0">
+      <TableView fx:id="tableview" layoutX="59.0" layoutY="242.0" prefHeight="200.0" prefWidth="736.0">
         <columns>
-          <TableColumn fx:id="timeCol" prefWidth="189.0" text="time" />
-          <TableColumn fx:id="dateCol" prefWidth="111.0" text="date" />
-            <TableColumn fx:id="titleCol" prefWidth="149.0" text="title" />
-            <TableColumn fx:id="thingsCol" prefWidth="304.0" text="things to be noted " />
+          <TableColumn fx:id="amountCol" prefWidth="150.0" text="Amount" />
+          <TableColumn fx:id="toCol" prefWidth="105.0" text="to" />
+            <TableColumn fx:id="dateCol" prefWidth="198.0" text="Date " />
+            <TableColumn fx:id="remarksCol" prefWidth="282.0" text="Remarks" />
         </columns>
       </TableView>
-      <Button layoutX="394.0" layoutY="197.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
+      <Button layoutX="367.0" layoutY="189.0" mnemonicParsing="false" text="Show" />
     </children>
 </AnchorPane>

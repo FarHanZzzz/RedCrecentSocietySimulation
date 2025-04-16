@@ -4,5 +4,6 @@ module oopfinal.redcrecentsocietysimulation {
 
 
     opens oopfinal.redcrecentsocietysimulation to javafx.fxml;
+
     exports oopfinal.redcrecentsocietysimulation;
 }

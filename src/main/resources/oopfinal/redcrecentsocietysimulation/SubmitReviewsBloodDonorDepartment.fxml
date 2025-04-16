@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.SubmitAnnualBudgetReportController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.SubmitReviewsBloodDonorDepartmentController">
     <children>
         <ButtonBar layoutX="301.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0" />
         <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="760.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
@@ -20,11 +20,6 @@
                 <Image url="@../../images/redcrecent-removebg-preview.png" />
             </image>
         </ImageView>
-        <Label layoutX="106.0" layoutY="86.0" text="Amount:" textFill="#faf9f7">
-            <font>
-                <Font size="19.0" />
-            </font>
-        </Label>
         <Label layoutX="106.0" layoutY="127.0" text="To :" textFill="#faf9f7">
             <font>
                 <Font size="19.0" />
@@ -35,15 +30,20 @@
                 <Font size="19.0" />
             </font>
         </Label>
-        <Label layoutX="106.0" layoutY="217.0" text="Remarks" textFill="#faf9f7">
+        <Label layoutX="106.0" layoutY="217.0" text="Reviews:" textFill="#faf9f7">
             <font>
                 <Font size="19.0" />
             </font>
         </Label>
-        <TextField layoutX="216.0" layoutY="88.0" />
-        <DatePicker layoutX="215.0" layoutY="175.0" />
-        <ComboBox layoutX="215.0" layoutY="129.0" prefWidth="150.0" />
-        <TextArea layoutX="216.0" layoutY="231.0" prefHeight="156.0" prefWidth="390.0" />
-        <Button layoutX="215.0" layoutY="441.0" mnemonicParsing="false" text="Submit Annual Budget Report" />
+        <DatePicker fx:id="datepicker" layoutX="285.0" layoutY="175.0" />
+        <ComboBox fx:id="toComboBox" layoutX="285.0" layoutY="129.0" prefWidth="150.0" />
+        <TextArea fx:id="reviewsField" layoutX="216.0" layoutY="231.0" prefHeight="156.0" prefWidth="390.0" />
+        <Button layoutX="215.0" layoutY="441.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
+      <Label layoutX="106.0" layoutY="84.0" text="Name of Volenteer" textFill="#faf9f7">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="286.0" layoutY="86.0" />
     </children>
 </AnchorPane>

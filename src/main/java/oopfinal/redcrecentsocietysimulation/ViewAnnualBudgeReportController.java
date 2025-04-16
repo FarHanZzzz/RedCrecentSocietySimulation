@@ -1,5 +1,9 @@
 package oopfinal.redcrecentsocietysimulation;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+
 public class ViewAnnualBudgeReportController
 {
     @javafx.fxml.FXML
@@ -15,4 +19,9 @@ public class ViewAnnualBudgeReportController
 
     @javafx.fxml.FXML
     public void initialize() {
-    }}
+    }
+
+    @javafx.fxml.FXML
+    public void showOnAction(ActionEvent actionEvent) {
+    }
+}

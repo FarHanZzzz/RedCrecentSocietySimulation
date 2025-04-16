@@ -24,6 +24,6 @@
             <TableColumn fx:id="remarksCol" prefWidth="282.0" text="Remarks" />
         </columns>
       </TableView>
-      <Button layoutX="367.0" layoutY="189.0" mnemonicParsing="false" text="Show" />
+      <Button layoutX="367.0" layoutY="189.0" mnemonicParsing="false" onAction="#showOnAction" text="Show" />
     </children>
 </AnchorPane>

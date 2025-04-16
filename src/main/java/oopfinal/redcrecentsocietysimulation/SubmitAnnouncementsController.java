@@ -1,5 +1,8 @@
 package oopfinal.redcrecentsocietysimulation;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.TextField;
+
 public class SubmitAnnouncementsController
 {
     @javafx.fxml.FXML

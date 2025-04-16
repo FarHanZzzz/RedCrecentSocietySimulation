@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -13,5 +16,13 @@
                 <Image url="@../../images/redcrecent-removebg-preview.png" />
             </image>
         </ImageView>
+      <TableView fx:id="tableview" layoutX="71.0" layoutY="222.0" prefHeight="200.0" prefWidth="693.0">
+        <columns>
+          <TableColumn fx:id="toCol" prefWidth="171.0" text="To" />
+          <TableColumn fx:id="DateCol" prefWidth="224.0" text="Date" />
+            <TableColumn fx:id="monthlyrepCol" prefWidth="297.0" text="Monthly Report" />
+        </columns>
+      </TableView>
+      <Button layoutX="366.0" layoutY="169.0" mnemonicParsing="false" onAction="#showOnAction" text="Show" />
     </children>
 </AnchorPane>

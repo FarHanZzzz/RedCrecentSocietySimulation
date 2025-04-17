@@ -23,7 +23,7 @@ public class ViewAdminsAnnouncementsController
     public void showOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

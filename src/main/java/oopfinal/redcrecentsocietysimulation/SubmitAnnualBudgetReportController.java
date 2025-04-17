@@ -25,7 +25,7 @@ public class SubmitAnnualBudgetReportController
     public void submitOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

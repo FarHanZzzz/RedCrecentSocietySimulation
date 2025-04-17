@@ -25,7 +25,7 @@ public class VIewFoodBudgetReportController
     public void showOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

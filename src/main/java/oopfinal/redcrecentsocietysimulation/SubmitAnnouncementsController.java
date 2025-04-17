@@ -12,15 +12,22 @@ public class SubmitAnnouncementsController
     @javafx.fxml.FXML
     private TextField subjectField;
 
+
+
+
+
+
     @javafx.fxml.FXML
     public void initialize() {
     }
+
+
+
+
 
     @javafx.fxml.FXML
     public void submitAnnouncementOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
-    public void backOnAction(ActionEvent actionEvent) {
-    }
+
 }

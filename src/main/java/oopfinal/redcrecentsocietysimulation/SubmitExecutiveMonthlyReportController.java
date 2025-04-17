@@ -22,7 +22,7 @@ public class SubmitExecutiveMonthlyReportController
     public void submitOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

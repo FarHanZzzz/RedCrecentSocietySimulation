@@ -25,7 +25,7 @@ public class SubmitEmergencyNoticeController
     public void SubmitNoticeOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

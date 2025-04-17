@@ -67,7 +67,7 @@ public class SubmitVolenteersReportController implements Serializable
 
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backOnAction(ActionEvent actionEvent) {
     }
 }

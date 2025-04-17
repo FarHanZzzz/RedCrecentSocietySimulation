@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.SubmitfoodBudgetReportController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.SubmitfoodBudgetReportController">
     <children>
         <ButtonBar layoutX="301.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0" />
         <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="760.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
@@ -45,5 +45,6 @@
         <ComboBox fx:id="foodamountCombobox" layoutX="261.0" layoutY="130.0" prefWidth="150.0" />
         <TextArea fx:id="descriptionField" layoutX="216.0" layoutY="231.0" prefHeight="156.0" prefWidth="390.0" />
         <Button layoutX="215.0" layoutY="441.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
+      <Button layoutX="105.0" layoutY="528.0" mnemonicParsing="false" onAction="#backOnAction" text="back" />
     </children>
 </AnchorPane>

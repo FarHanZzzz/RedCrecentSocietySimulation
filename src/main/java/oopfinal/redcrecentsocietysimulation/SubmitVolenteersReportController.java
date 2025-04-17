@@ -66,4 +66,8 @@ public class SubmitVolenteersReportController implements Serializable
         }
 
     }
+
+    @javafx.fxml.FXML
+    public void backOnAction(ActionEvent actionEvent) {
+    }
 }

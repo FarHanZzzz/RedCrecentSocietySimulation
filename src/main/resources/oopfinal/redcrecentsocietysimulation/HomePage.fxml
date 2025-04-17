@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.HomePageController">
+<AnchorPane prefHeight="603.0" prefWidth="853.0" style="-fx-background-color: #38040E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopfinal.redcrecentsocietysimulation.HomePageController">
    <children>
       <Label layoutX="186.0" layoutY="34.0" text="Red Crecent Society " textAlignment="CENTER" textFill="#faf9f7" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
@@ -16,12 +16,12 @@
          </font>
       </Label>
       <ButtonBar layoutX="301.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0" />
-      <Button layoutX="270.0" layoutY="532.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="1.0" prefWidth="295.0" style="-fx-background-color: #faf9f7;" text="Login">
+      <Button layoutX="270.0" layoutY="532.0" mnemonicParsing="false" onAction="#SignInBloodDonorExecutive" prefHeight="43.0" prefWidth="323.0" style="-fx-background-color: #faf9f7;" text="Sign in as Blood Donor Executive">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button layoutX="269.0" layoutY="461.0" mnemonicParsing="false" onAction="#createAccountOnAction" prefHeight="29.0" prefWidth="295.0" style="-fx-background-color: #faf9f7;" text="Create an Account ">
+      <Button layoutX="269.0" layoutY="461.0" mnemonicParsing="false" onAction="#singinAsAdminOnAction" prefHeight="43.0" prefWidth="323.0" style="-fx-background-color: #faf9f7;" text="Sign in as Admin">
          <font>
             <Font size="20.0" />
          </font>

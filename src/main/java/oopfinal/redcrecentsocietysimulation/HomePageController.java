@@ -8,11 +8,21 @@ public class HomePageController
     public void initialize() {
     }
 
+
+
+
+
+
+
+
+
+
+
     @javafx.fxml.FXML
-    public void createAccountOnAction(ActionEvent actionEvent) {
+    public void singinAsAdminOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
-    public void loginOnAction(ActionEvent actionEvent) {
+    public void SignInBloodDonorExecutive(ActionEvent actionEvent) {
     }
 }

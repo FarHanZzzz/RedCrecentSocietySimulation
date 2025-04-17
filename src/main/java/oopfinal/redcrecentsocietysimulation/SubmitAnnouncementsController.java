@@ -19,4 +19,8 @@ public class SubmitAnnouncementsController
     @javafx.fxml.FXML
     public void submitAnnouncementOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backOnAction(ActionEvent actionEvent) {
+    }
 }

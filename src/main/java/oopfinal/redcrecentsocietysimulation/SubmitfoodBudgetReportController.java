@@ -24,4 +24,8 @@ public class SubmitfoodBudgetReportController
     @javafx.fxml.FXML
     public void submitOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backOnAction(ActionEvent actionEvent) {
+    }
 }

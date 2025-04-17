@@ -24,4 +24,8 @@ public class SubmitReviewsBloodDonorDepartmentController
     @javafx.fxml.FXML
     public void submitOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backOnAction(ActionEvent actionEvent) {
+    }
 }

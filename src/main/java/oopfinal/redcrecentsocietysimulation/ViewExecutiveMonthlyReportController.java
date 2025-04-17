@@ -22,4 +22,8 @@ public class ViewExecutiveMonthlyReportController
     @javafx.fxml.FXML
     public void showOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backOnAction(ActionEvent actionEvent) {
+    }
 }
